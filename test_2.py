@@ -2,6 +2,7 @@ import unittest
 from main_2 import check
 
 
+# Тест на четность
 class TestCheck(unittest.TestCase):
     def test_check(self):
         self.assertTrue(check(2))

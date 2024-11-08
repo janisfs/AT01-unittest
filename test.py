@@ -2,6 +2,7 @@ import unittest
 from main import add, subtract, multiply, divide
 
 
+# Тест на сложение, вычитание, умножение и деление
 class TestMath(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(2, 5), 7)

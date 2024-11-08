@@ -1,6 +1,8 @@
 import unittest
 from main_3 import divide
 
+
+# Тест на деление
 class TestMath(unittest.TestCase):
     def test_divide_success(self):
         self.assertEqual(divide(10, 2), 5)
